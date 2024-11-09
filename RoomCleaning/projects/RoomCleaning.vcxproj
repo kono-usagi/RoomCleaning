@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\code\Fps\Fps.cpp" />
+    <ClCompile Include="..\code\GameObject\GameObjectManager\GameObjectManager.cpp" />
     <ClCompile Include="..\code\GameObject\GameObject\GameObject.cpp" />
     <ClCompile Include="..\code\GameSystem\GameManager\GameManager.cpp" />
     <ClCompile Include="..\code\GameSystem\GameSetting\GameSetting.cpp" />
@@ -155,6 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\code\Fps\Fps.h" />
+    <ClInclude Include="..\code\GameObject\GameObjectManager\GameObjectManager.h" />
     <ClInclude Include="..\code\GameObject\GameObject\CleaningObjectTag.h" />
     <ClInclude Include="..\code\GameObject\GameObject\EndObjectTag.h" />
     <ClInclude Include="..\code\GameObject\GameObject\GameObject.h" />
