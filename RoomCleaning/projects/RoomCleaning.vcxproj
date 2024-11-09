@@ -155,7 +155,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\code\Fps\Fps.h" />
+    <ClInclude Include="..\code\GameObject\GameObject\CleaningObjectTag.h" />
+    <ClInclude Include="..\code\GameObject\GameObject\EndObjectTag.h" />
     <ClInclude Include="..\code\GameObject\GameObject\GameObject.h" />
+    <ClInclude Include="..\code\GameObject\GameObject\ResultObjectTag.h" />
+    <ClInclude Include="..\code\GameObject\GameObject\TitleObjectTag.h" />
     <ClInclude Include="..\code\GameSystem\GameManager\GameManager.h" />
     <ClInclude Include="..\code\GameSystem\GameSetting\GameSetting.h" />
     <ClInclude Include="..\code\GameSystem\Window\Window.h" />
