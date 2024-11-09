@@ -1,6 +1,6 @@
 #include"SceneBase.h"
 
-namespace mea
+namespace rc
 {
     SceneBase::SceneBase()
     {

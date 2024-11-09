@@ -1,7 +1,7 @@
 #pragma once
 #include<DxLib.h>
 
-namespace mea
+namespace rc
 {
     /// <summary>
     /// シーンの更新処理クラス
