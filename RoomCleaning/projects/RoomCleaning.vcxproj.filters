@@ -22,27 +22,39 @@
     <Filter Include="ソース ファイル\GameSetting">
       <UniqueIdentifier>{9051ba36-e7bc-4dbb-9cff-54cc7e636061}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\Fps">
+      <UniqueIdentifier>{9c6b6a68-94eb-465c-be8e-b3b559bd0646}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\code\GameSystem\Window\Window.cpp">
       <Filter>ソース ファイル\Window</Filter>
     </ClCompile>
-    <ClCompile Include="..\code\GameSystem\Window\GameSetting.cpp">
+    <ClCompile Include="..\code\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\GameSystem\GameSetting\GameSetting.cpp">
       <Filter>ソース ファイル\GameSetting</Filter>
     </ClCompile>
-    <ClCompile Include="..\code\GameSystem\Window\GameManager.cpp">
+    <ClCompile Include="..\code\GameSystem\GameManager\GameManager.cpp">
       <Filter>ソース ファイル\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\Fps\Fps.cpp">
+      <Filter>ソース ファイル\Fps</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\code\GameSystem\Window\Window.h">
       <Filter>ソース ファイル\Window</Filter>
     </ClInclude>
-    <ClInclude Include="..\code\GameSystem\Window\GameSetting.h">
+    <ClInclude Include="..\code\GameSystem\GameSetting\GameSetting.h">
       <Filter>ソース ファイル\GameSetting</Filter>
     </ClInclude>
-    <ClInclude Include="..\code\GameSystem\Window\GameManager.h">
+    <ClInclude Include="..\code\GameSystem\GameManager\GameManager.h">
       <Filter>ソース ファイル\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\Fps\Fps.h">
+      <Filter>ソース ファイル\Fps</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
