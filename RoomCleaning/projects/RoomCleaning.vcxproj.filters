@@ -25,11 +25,37 @@
     <Filter Include="ソース ファイル\Fps">
       <UniqueIdentifier>{9c6b6a68-94eb-465c-be8e-b3b559bd0646}</UniqueIdentifier>
     </Filter>
+
     <Filter Include="ソース ファイル\GameObject">
       <UniqueIdentifier>{071951b1-df34-4e2b-a9a5-a837b24dc990}</UniqueIdentifier>
     </Filter>
     <Filter Include="ソース ファイル\GameObject\GameObject">
       <UniqueIdentifier>{00405223-c784-4955-ad9c-08a334dbfac5}</UniqueIdentifier>
+
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{c23929b8-0b5a-4830-9666-2950ad574cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\SceneManager">
+      <UniqueIdentifier>{a8bc00de-90a1-4e31-ae83-3e90e1533a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\SceneBase">
+      <UniqueIdentifier>{d8d63c84-0516-4298-b41b-881e1b13a387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Title">
+      <UniqueIdentifier>{33bdd0b5-d241-428a-bb52-4fd5f4400f7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Cleaning">
+      <UniqueIdentifier>{d15a5999-796a-4ea7-bbe2-20c54c37faa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Result">
+      <UniqueIdentifier>{0b6b9c23-2683-4189-af61-09e5e56aa9cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\End">
+      <UniqueIdentifier>{de2edcb9-a88c-4dc0-a5ec-c591f00303dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Tutorial">
+      <UniqueIdentifier>{d8822d01-2e27-4665-abd0-c953ab64752f}</UniqueIdentifier>
+
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -48,8 +74,31 @@
     <ClCompile Include="..\code\Fps\Fps.cpp">
       <Filter>ソース ファイル\Fps</Filter>
     </ClCompile>
+
     <ClCompile Include="..\code\GameObject\GameObject\GameObject.cpp">
       <Filter>ソース ファイル\GameObject\GameObject</Filter>
+
+    <ClCompile Include="..\code\Scene\SceneManager\SceneManager.cpp">
+      <Filter>ソース ファイル\Scene\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\Scene\SceneBase\SceneBase.cpp">
+      <Filter>ソース ファイル\Scene\SceneBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\Scene\Title\Title.cpp">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\Scene\Result\Result.cpp">
+      <Filter>ソース ファイル\Scene\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\Scene\Tutorial\Tutorial.cpp">
+      <Filter>ソース ファイル\Scene\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\Scene\End\End.cpp">
+      <Filter>ソース ファイル\Scene\End</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\Scene\Cleaning\Cleaning.cpp">
+      <Filter>ソース ファイル\Scene\Cleaning</Filter>
+
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -65,8 +114,31 @@
     <ClInclude Include="..\code\Fps\Fps.h">
       <Filter>ソース ファイル\Fps</Filter>
     </ClInclude>
+
     <ClInclude Include="..\code\GameObject\GameObject\GameObject.h">
       <Filter>ソース ファイル\GameObject\GameObject</Filter>
+
+    <ClInclude Include="..\code\Scene\SceneManager\SceneManager.h">
+      <Filter>ソース ファイル\Scene\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\Scene\SceneBase\SceneBase.h">
+      <Filter>ソース ファイル\Scene\SceneBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\Scene\Title\Title.h">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\Scene\Result\Result.h">
+      <Filter>ソース ファイル\Scene\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\Scene\Tutorial\Tutorial.h">
+      <Filter>ソース ファイル\Scene\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\Scene\End\End.h">
+      <Filter>ソース ファイル\Scene\End</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\Scene\Cleaning\Cleaning.h">
+      <Filter>ソース ファイル\Scene\Cleaning</Filter>
+
     </ClInclude>
   </ItemGroup>
 </Project>
