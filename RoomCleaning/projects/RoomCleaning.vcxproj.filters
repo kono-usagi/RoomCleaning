@@ -68,5 +68,17 @@
     <ClInclude Include="..\code\GameObject\GameObject\GameObject.h">
       <Filter>ソース ファイル\GameObject\GameObject</Filter>
     </ClInclude>
+    <ClInclude Include="..\code\GameObject\GameObject\CleaningObjectTag.h">
+      <Filter>ソース ファイル\GameObject\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\GameObject\GameObject\ResultObjectTag.h">
+      <Filter>ソース ファイル\GameObject\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\GameObject\GameObject\TitleObjectTag.h">
+      <Filter>ソース ファイル\GameObject\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\GameObject\GameObject\EndObjectTag.h">
+      <Filter>ソース ファイル\GameObject\GameObject</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
