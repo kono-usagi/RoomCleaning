@@ -1,0 +1,13 @@
+#include"SceneBase.h"
+
+namespace mea
+{
+    SceneBase::SceneBase()
+    {
+        //????????
+    }
+    SceneBase::~SceneBase()
+    {
+        //????????
+    }
+}
