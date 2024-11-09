@@ -4,7 +4,7 @@
 #include"../../Object/GameObjectManager/GameObjectManager.h"
 
 
-namespace mea
+namespace rc
 {
 	/// <summary>
 	/// ƒV[ƒ“ŠÇ—

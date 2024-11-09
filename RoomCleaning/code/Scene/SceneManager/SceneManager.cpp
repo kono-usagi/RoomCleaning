@@ -3,10 +3,10 @@
 
 #include "SceneManager.h"
 #include"../../Scene/SceneBase/SceneBase.h"
-#include "../../Scene/Cleaning/Cleaning.h"
+#include "../../Scene/Title/Title.h"
 #include"../../Fps/Fps.h"
 
-namespace mea
+namespace rc
 {
     SceneManager::SceneManager()
         :mHoldScene(nullptr)
@@ -17,7 +17,7 @@ namespace mea
         //AssetManager::InitAssetManager(); インスタンス生成
 
         //現在のシーンをタイトルに設定
-        mNowScene.emplace(new Play);
+        mNowScene.emplace(new Title);
     }
 
     SceneManager::~SceneManager()
