@@ -143,6 +143,7 @@
     <ClCompile Include="..\code\GameSystem\GameManager\GameManager.cpp" />
     <ClCompile Include="..\code\GameSystem\GameSetting\GameSetting.cpp" />
     <ClCompile Include="..\code\GameSystem\Window\Window.cpp" />
+    <ClCompile Include="..\code\JsonMaster\IOUtility\IOUtility.cpp" />
     <ClCompile Include="..\code\main.cpp" />
     <ClCompile Include="..\code\Object\GameObjectManager\GameObjectManager.cpp" />
     <ClCompile Include="..\code\Object\GameObject\GameObject.cpp" />
@@ -159,6 +160,8 @@
     <ClInclude Include="..\code\GameSystem\GameManager\GameManager.h" />
     <ClInclude Include="..\code\GameSystem\GameSetting\GameSetting.h" />
     <ClInclude Include="..\code\GameSystem\Window\Window.h" />
+    <ClInclude Include="..\code\JsonMaster\IOUtility\IOUtility.h" />
+    <ClInclude Include="..\code\JsonMaster\IOUtility\Jsonkey.h" />
     <ClInclude Include="..\code\Object\GameObjectManager\GameObjectManager.h" />
     <ClInclude Include="..\code\Object\GameObject\CleaningObjectTag.h" />
     <ClInclude Include="..\code\Object\GameObject\EndObjectTag.h" />
