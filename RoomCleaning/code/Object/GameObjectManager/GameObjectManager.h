@@ -4,9 +4,9 @@
 #include <memory>
 #include <vector>
 
-#include"../../GameObject/GameObject/GameObject.h"
-#include"../../GameObject/GameObject/CleaningObjectTag.h"
-#include"../../GameObject/GameObject/TitleObjectTag.h"
+#include"../../Object/GameObject/GameObject.h"
+#include"../../Object/GameObject/CleaningObjectTag.h"
+#include"../../Object/GameObject/TitleObjectTag.h"
 
 class GameObject;
 
