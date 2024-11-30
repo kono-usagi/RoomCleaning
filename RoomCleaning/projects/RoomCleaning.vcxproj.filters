@@ -41,6 +41,9 @@
     <ClCompile Include="..\code\Object\GameObject\GameObject.cpp">
       <Filter>Object\GameObject</Filter>
     </ClCompile>
+    <ClCompile Include="..\code\JsonMaster\IOUtility\IOUtility.cpp">
+      <Filter>JsonMaster</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\code\GameSystem\GameSetting\GameSetting.h">
@@ -94,6 +97,12 @@
     <ClInclude Include="..\code\Object\GameObject\TitleObjectTag.h">
       <Filter>Object\GameObject</Filter>
     </ClInclude>
+    <ClInclude Include="..\code\JsonMaster\IOUtility\IOUtility.h">
+      <Filter>JsonMaster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\JsonMaster\IOUtility\Jsonkey.h">
+      <Filter>JsonMaster</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Scene">
@@ -134,6 +143,9 @@
     </Filter>
     <Filter Include="Object\GameObjectManager">
       <UniqueIdentifier>{9d77b7fc-1529-4e9e-8de1-a4c495a03a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonMaster">
+      <UniqueIdentifier>{ba8f65c7-efc5-4eea-85cf-6c43a9dbfb79}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
