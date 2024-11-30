@@ -2,12 +2,6 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="..\code\main.cpp" />
-    <ClCompile Include="..\code\GameObject\GameObjectManager\GameObjectManager.cpp">
-      <Filter>GameObjectManager</Filter>
-    </ClCompile>
-    <ClCompile Include="..\code\GameObject\GameObject\GameObject.cpp">
-      <Filter>Object\GameObject</Filter>
-    </ClCompile>
     <ClCompile Include="..\code\GameSystem\GameSetting\GameSetting.cpp">
       <Filter>GameSystem</Filter>
     </ClCompile>
@@ -41,26 +35,14 @@
     <ClCompile Include="..\code\Scene\Tutorial\Tutorial.cpp">
       <Filter>Scene\Tutorial</Filter>
     </ClCompile>
+    <ClCompile Include="..\code\Object\GameObjectManager\GameObjectManager.cpp">
+      <Filter>Object\GameObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\Object\GameObject\GameObject.cpp">
+      <Filter>Object\GameObject</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\code\GameObject\GameObjectManager\GameObjectManager.h">
-      <Filter>GameObjectManager</Filter>
-    </ClInclude>
-    <ClInclude Include="..\code\GameObject\GameObject\CleaningObjectTag.h">
-      <Filter>Object\GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="..\code\GameObject\GameObject\EndObjectTag.h">
-      <Filter>Object\GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="..\code\GameObject\GameObject\GameObject.h">
-      <Filter>Object\GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="..\code\GameObject\GameObject\ResultObjectTag.h">
-      <Filter>Object\GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="..\code\GameObject\GameObject\TitleObjectTag.h">
-      <Filter>Object\GameObject</Filter>
-    </ClInclude>
     <ClInclude Include="..\code\GameSystem\GameSetting\GameSetting.h">
       <Filter>GameSystem</Filter>
     </ClInclude>
@@ -94,11 +76,26 @@
     <ClInclude Include="..\code\Scene\Tutorial\Tutorial.h">
       <Filter>Scene\Tutorial</Filter>
     </ClInclude>
+    <ClInclude Include="..\code\Object\GameObjectManager\GameObjectManager.h">
+      <Filter>Object\GameObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\Object\GameObject\CleaningObjectTag.h">
+      <Filter>Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\Object\GameObject\EndObjectTag.h">
+      <Filter>Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\Object\GameObject\GameObject.h">
+      <Filter>Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\Object\GameObject\ResultObjectTag.h">
+      <Filter>Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\Object\GameObject\TitleObjectTag.h">
+      <Filter>Object\GameObject</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="GameObjectManager">
-      <UniqueIdentifier>{9d77b7fc-1529-4e9e-8de1-a4c495a03a27}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Scene">
       <UniqueIdentifier>{77148814-f86c-43ab-8191-466f1c49d108}</UniqueIdentifier>
     </Filter>
@@ -134,6 +131,9 @@
     </Filter>
     <Filter Include="Scene\Tutorial">
       <UniqueIdentifier>{33593f5c-8dec-47a2-8dee-2afe2687f559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\GameObjectManager">
+      <UniqueIdentifier>{9d77b7fc-1529-4e9e-8de1-a4c495a03a27}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

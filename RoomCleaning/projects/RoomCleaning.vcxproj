@@ -140,12 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\code\Fps\Fps.cpp" />
-    <ClCompile Include="..\code\GameObject\GameObjectManager\GameObjectManager.cpp" />
-    <ClCompile Include="..\code\GameObject\GameObject\GameObject.cpp" />
     <ClCompile Include="..\code\GameSystem\GameManager\GameManager.cpp" />
     <ClCompile Include="..\code\GameSystem\GameSetting\GameSetting.cpp" />
     <ClCompile Include="..\code\GameSystem\Window\Window.cpp" />
     <ClCompile Include="..\code\main.cpp" />
+    <ClCompile Include="..\code\Object\GameObjectManager\GameObjectManager.cpp" />
+    <ClCompile Include="..\code\Object\GameObject\GameObject.cpp" />
     <ClCompile Include="..\code\Scene\Cleaning\Cleaning.cpp" />
     <ClCompile Include="..\code\Scene\End\End.cpp" />
     <ClCompile Include="..\code\Scene\Result\Result.cpp" />
@@ -156,15 +156,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\code\Fps\Fps.h" />
-    <ClInclude Include="..\code\GameObject\GameObjectManager\GameObjectManager.h" />
-    <ClInclude Include="..\code\GameObject\GameObject\CleaningObjectTag.h" />
-    <ClInclude Include="..\code\GameObject\GameObject\EndObjectTag.h" />
-    <ClInclude Include="..\code\GameObject\GameObject\GameObject.h" />
-    <ClInclude Include="..\code\GameObject\GameObject\ResultObjectTag.h" />
-    <ClInclude Include="..\code\GameObject\GameObject\TitleObjectTag.h" />
     <ClInclude Include="..\code\GameSystem\GameManager\GameManager.h" />
     <ClInclude Include="..\code\GameSystem\GameSetting\GameSetting.h" />
     <ClInclude Include="..\code\GameSystem\Window\Window.h" />
+    <ClInclude Include="..\code\Object\GameObjectManager\GameObjectManager.h" />
+    <ClInclude Include="..\code\Object\GameObject\CleaningObjectTag.h" />
+    <ClInclude Include="..\code\Object\GameObject\EndObjectTag.h" />
+    <ClInclude Include="..\code\Object\GameObject\GameObject.h" />
+    <ClInclude Include="..\code\Object\GameObject\ResultObjectTag.h" />
+    <ClInclude Include="..\code\Object\GameObject\TitleObjectTag.h" />
     <ClInclude Include="..\code\Scene\Cleaning\Cleaning.h" />
     <ClInclude Include="..\code\Scene\End\End.h" />
     <ClInclude Include="..\code\Scene\Result\Result.h" />
