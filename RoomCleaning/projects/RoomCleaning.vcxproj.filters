@@ -42,7 +42,34 @@
       <Filter>Object\GameObject</Filter>
     </ClCompile>
     <ClCompile Include="..\code\JsonMaster\IOUtility\IOUtility.cpp">
-      <Filter>JsonMaster</Filter>
+      <Filter>JsonMaster\IOUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\JsonMaster\JsonManager\JsonManager.cpp">
+      <Filter>JsonMaster\JsonManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\JsonMaster\Image\MasterImageData\MasterImageData.cpp">
+      <Filter>JsonMaster\Image\MasterImageData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\JsonMaster\Image\CleaningData\CleaningData.cpp">
+      <Filter>JsonMaster\Image\CleaningData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\JsonMaster\Image\TitleData\TitleData.cpp">
+      <Filter>JsonMaster\Image\TitleData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\JsonMaster\Image\EndData\EndData.cpp">
+      <Filter>JsonMaster\Image\EndData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\JsonMaster\Image\TutorialData\TutorialData.cpp">
+      <Filter>JsonMaster\Image\TutorialData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\JsonMaster\Image\ResultData\ResultData.cpp">
+      <Filter>JsonMaster\Image\ResultData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\JsonMaster\Stage\MasterStageData\MasterIStageData.cpp">
+      <Filter>JsonMaster\Stage\MasterStageData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\JsonMaster\Stage\StageOneData\StageOneData.cpp">
+      <Filter>JsonMaster\Stage\StageOneData</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -97,11 +124,41 @@
     <ClInclude Include="..\code\Object\GameObject\TitleObjectTag.h">
       <Filter>Object\GameObject</Filter>
     </ClInclude>
-    <ClInclude Include="..\code\JsonMaster\IOUtility\IOUtility.h">
-      <Filter>JsonMaster</Filter>
-    </ClInclude>
     <ClInclude Include="..\code\JsonMaster\IOUtility\Jsonkey.h">
-      <Filter>JsonMaster</Filter>
+      <Filter>JsonMaster\IOUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\JsonMaster\IOUtility\IOUtility.h">
+      <Filter>JsonMaster\IOUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\JsonMaster\JsonManager\JsonManager.h">
+      <Filter>JsonMaster\JsonManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\JsonMaster\Image\MasterImageData\MasterImageData.h">
+      <Filter>JsonMaster\Image\MasterImageData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\JsonMaster\Image\CleaningData\CleaningData.h">
+      <Filter>JsonMaster\Image\CleaningData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\JsonMaster\Image\TitleData\TitleData.h">
+      <Filter>JsonMaster\Image\TitleData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\JsonMaster\Image\EndData\EndData.h">
+      <Filter>JsonMaster\Image\EndData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\JsonMaster\Image\TutorialData\TutoiralData.h">
+      <Filter>JsonMaster\Image\TutorialData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\JsonMaster\Image\ResultData\ResultData.h">
+      <Filter>JsonMaster\Image\ResultData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\JsonMaster\Text\Jsonkey.h">
+      <Filter>JsonMaster\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\JsonMaster\Stage\MasterStageData\MasterStageData.h">
+      <Filter>JsonMaster\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\JsonMaster\Stage\StageOneData\StageOneData.h">
+      <Filter>JsonMaster\Stage\StageOneData</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +203,45 @@
     </Filter>
     <Filter Include="JsonMaster">
       <UniqueIdentifier>{ba8f65c7-efc5-4eea-85cf-6c43a9dbfb79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonMaster\IOUtility">
+      <UniqueIdentifier>{79fd3c2b-4962-4e4e-8c79-c23df2448b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonMaster\JsonManager">
+      <UniqueIdentifier>{3352c413-8afb-41de-9f7a-634ec0f1ea0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonMaster\Image">
+      <UniqueIdentifier>{997eb3a4-d8c6-4f9b-bd97-87be96f45e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonMaster\Stage">
+      <UniqueIdentifier>{fe0c38aa-fc2f-4d64-aaaa-bc5438541563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonMaster\Text">
+      <UniqueIdentifier>{3d0936c3-1448-40d6-8c69-7d5576c74d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonMaster\Image\MasterImageData">
+      <UniqueIdentifier>{abc957bc-609f-4e4c-9104-71edb9e48ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonMaster\Image\TitleData">
+      <UniqueIdentifier>{01dbf0f8-7709-4027-b266-820aed9dc96f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonMaster\Image\CleaningData">
+      <UniqueIdentifier>{6ee4f3c3-2971-43f2-8766-2985cee1acfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonMaster\Image\ResultData">
+      <UniqueIdentifier>{59493190-cdfe-4b77-9c31-dfa8c563495b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonMaster\Image\EndData">
+      <UniqueIdentifier>{53464bcd-d5aa-46e6-83f3-38f0339761a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonMaster\Image\TutorialData">
+      <UniqueIdentifier>{492f27dc-2592-4c03-bcab-6be45c214484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonMaster\Stage\MasterStageData">
+      <UniqueIdentifier>{6b56a448-7f4e-47a7-9495-abcff7d071f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonMaster\Stage\StageOneData">
+      <UniqueIdentifier>{a2c450ad-9187-465d-979b-7e42ba235302}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
