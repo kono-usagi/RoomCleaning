@@ -1,7 +1,7 @@
 #include"DxLib.h"
 #include"../Window/Window.h"
 #include"../GameSetting/GameSetting.h"
-#include"../SceneManager/SceneManager.h"
+#include"../../Scene/SceneManager/SceneManager.h"
 #include<memory>
 
 namespace mea

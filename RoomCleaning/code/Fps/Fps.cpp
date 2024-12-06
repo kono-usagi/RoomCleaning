@@ -1,7 +1,7 @@
 #include <DxLib.h>
 #include "Fps.h"
 
-namespace mea
+namespace rc
 {
 	Fps::Fps()
 		:nowTime(static_cast<float>(GetNowCount()))

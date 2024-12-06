@@ -1,6 +1,6 @@
 #pragma once
 
-namespace mea
+namespace rc
 {
 	class Fps
 	{
