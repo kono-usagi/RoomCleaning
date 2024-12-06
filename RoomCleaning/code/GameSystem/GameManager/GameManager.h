@@ -4,7 +4,7 @@
 #include"../../Scene/SceneManager/SceneManager.h"
 #include<memory>
 
-namespace mea
+namespace rc
 {
     /// <summary>
     /// ゲーム全体の進行管理クラス
@@ -15,7 +15,7 @@ namespace mea
         GameManager();//コンストラクタ
         ~GameManager();//デストラクタ
 
-        static void Finalize();
+        void Finalize();
 
     private:
 

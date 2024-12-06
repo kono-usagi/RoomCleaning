@@ -2,7 +2,7 @@
 #include <DxLib.h>
 #include <memory>
 
-namespace mea
+namespace rc
 {
     /// <summary>
     /// ゲームセッティング
