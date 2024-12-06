@@ -71,6 +71,12 @@
     <ClCompile Include="..\code\JsonMaster\Stage\StageOneData\StageOneData.cpp">
       <Filter>JsonMaster\Stage\StageOneData</Filter>
     </ClCompile>
+    <ClCompile Include="..\code\JsonMaster\Text\MasterTextData\MasterTextData.cpp">
+      <Filter>JsonMaster\Text\MasterTextData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\JsonMaster\Text\CleaningData\CleaningTextData.cpp">
+      <Filter>JsonMaster\Text\CleaningTextData</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\code\GameSystem\GameSetting\GameSetting.h">
@@ -151,14 +157,20 @@
     <ClInclude Include="..\code\JsonMaster\Image\ResultData\ResultData.h">
       <Filter>JsonMaster\Image\ResultData</Filter>
     </ClInclude>
-    <ClInclude Include="..\code\JsonMaster\Text\Jsonkey.h">
-      <Filter>JsonMaster\Text</Filter>
-    </ClInclude>
-    <ClInclude Include="..\code\JsonMaster\Stage\MasterStageData\MasterStageData.h">
-      <Filter>JsonMaster\Stage</Filter>
-    </ClInclude>
     <ClInclude Include="..\code\JsonMaster\Stage\StageOneData\StageOneData.h">
       <Filter>JsonMaster\Stage\StageOneData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\JsonMaster\Text\MasterTextData\MasterTextData.h">
+      <Filter>JsonMaster\Text\MasterTextData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\JsonMaster\Stage\MasterStageData\MasterStageData.h">
+      <Filter>JsonMaster\Stage\MasterStageData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\JsonMaster\Text\CleaningData\CleaningTextData.h">
+      <Filter>JsonMaster\Text\CleaningTextData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\JsonMaster\Jsonkey.h">
+      <Filter>JsonMaster</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -242,6 +254,12 @@
     </Filter>
     <Filter Include="JsonMaster\Stage\StageOneData">
       <UniqueIdentifier>{a2c450ad-9187-465d-979b-7e42ba235302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonMaster\Text\MasterTextData">
+      <UniqueIdentifier>{602e7c8e-1a2d-46fc-bac9-b670906da5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonMaster\Text\CleaningTextData">
+      <UniqueIdentifier>{e240c794-d32f-4c42-9f2b-be09480d49a6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

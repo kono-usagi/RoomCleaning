@@ -1,7 +1,7 @@
 #pragma once
 #include<memory>
 
-#include "../Image/MasterImgData/MasterImgData.h"
+#include "../Image/MasterImageData/MasterImageData.h"
 #include"../Stage/MasterStageData/MasterStageData.h"
 #include "../Text/MasterTextData/MasterTextData.h"
 
@@ -23,7 +23,7 @@ namespace rc
 		/// イメージインスタンス
 		/// </summary>
 		/// <returns>イメージデータ</returns>
-		static class MasterImgData* ImgDataInstance() { return jsonmanager->masterimgdata.get(); }
+		static class MasterImageData* ImgDataInstance() { return jsonmanager->masterimagedata.get(); }
 
 		/// <summary>
 		/// ステージインスタンス
@@ -52,7 +52,7 @@ namespace rc
 
 		static std::unique_ptr<class JsonManager> jsonmanager;//自身の実態
 
-		std::unique_ptr<class MasterImgData> masterimgdata;//ImgJsonの実態
+		std::unique_ptr<class MasterImageData> masterimagedata;//ImgJsonの実態
 		std::unique_ptr<class MasterStageData> masterstagedata;//StageJsonの実態
 		std::unique_ptr<class MasterTextData> mastertextdata;//TextJsonの実態
 	};

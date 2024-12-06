@@ -6,7 +6,7 @@
 #include"../CleaningData/CleaningData.h"
 #include"../ResultData/ResultData.h"
 #include"../EndData/EndData.h"
-#include"../TutorialData/TutorialData.h"
+#include"../TutorialData/TutoiralData.h"
 
 namespace rc
 {
@@ -56,8 +56,8 @@ namespace rc
 		IOUtility ioutility;							//IOUtilityインスタンス
 
 		std::unique_ptr<class TitleData> titledata;     //title
-		std::unique_ptr<class CleaningData> playdata;	//cleaning
-		std::unique_ptr<class ResultData> storydata;	//result
+		std::unique_ptr<class CleaningData> cleaningdata;	//cleaning
+		std::unique_ptr<class ResultData> resultdata;	//result
 		std::unique_ptr<class EndData> enddata;			//end
 	};
 }

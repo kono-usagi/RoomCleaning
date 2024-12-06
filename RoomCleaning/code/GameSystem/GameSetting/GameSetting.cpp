@@ -1,6 +1,6 @@
 #include "GameSetting.h"
 
-namespace mea
+namespace rc
 {
     //À‘Ì‚Ì‰Šú‰»
     std::unique_ptr<GameSetting> GameSetting::mSingleton = nullptr;

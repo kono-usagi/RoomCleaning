@@ -1,6 +1,6 @@
 #include "Window.h"
 
-namespace mea
+namespace rc
 {
     //ŽÀ‘Ì‚ð‹ó‚É
     std::unique_ptr<Window> Window::mSingleton = nullptr;

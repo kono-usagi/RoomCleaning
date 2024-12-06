@@ -5,7 +5,7 @@ namespace rc
 	std::unique_ptr<JsonManager>JsonManager::jsonmanager = nullptr;
 
 	JsonManager::JsonManager()
-		:masterimgdata(new MasterImgData),
+		:masterimagedata(new MasterImageData),
 		masterstagedata(new MasterStageData),
 		mastertextdata(new MasterTextData)
 	{
@@ -24,6 +24,6 @@ namespace rc
 	JsonManager::~JsonManager()
 	{
 		//‰ğ•ú
-		masterimgdata.release();
+		masterimagedata.release();
 	}
 }

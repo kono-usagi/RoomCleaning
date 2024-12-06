@@ -153,6 +153,8 @@
     <ClCompile Include="..\code\JsonMaster\JsonManager\JsonManager.cpp" />
     <ClCompile Include="..\code\JsonMaster\Stage\MasterStageData\MasterIStageData.cpp" />
     <ClCompile Include="..\code\JsonMaster\Stage\StageOneData\StageOneData.cpp" />
+    <ClCompile Include="..\code\JsonMaster\Text\CleaningData\CleaningTextData.cpp" />
+    <ClCompile Include="..\code\JsonMaster\Text\MasterTextData\MasterTextData.cpp" />
     <ClCompile Include="..\code\main.cpp" />
     <ClCompile Include="..\code\Object\GameObjectManager\GameObjectManager.cpp" />
     <ClCompile Include="..\code\Object\GameObject\GameObject.cpp" />
@@ -177,10 +179,12 @@
     <ClInclude Include="..\code\JsonMaster\Image\TutorialData\TutoiralData.h" />
     <ClInclude Include="..\code\JsonMaster\IOUtility\IOUtility.h" />
     <ClInclude Include="..\code\JsonMaster\IOUtility\Jsonkey.h" />
+    <ClInclude Include="..\code\JsonMaster\Jsonkey.h" />
     <ClInclude Include="..\code\JsonMaster\JsonManager\JsonManager.h" />
     <ClInclude Include="..\code\JsonMaster\Stage\MasterStageData\MasterStageData.h" />
     <ClInclude Include="..\code\JsonMaster\Stage\StageOneData\StageOneData.h" />
-    <ClInclude Include="..\code\JsonMaster\Text\Jsonkey.h" />
+    <ClInclude Include="..\code\JsonMaster\Text\CleaningData\CleaningTextData.h" />
+    <ClInclude Include="..\code\JsonMaster\Text\MasterTextData\MasterTextData.h" />
     <ClInclude Include="..\code\Object\GameObjectManager\GameObjectManager.h" />
     <ClInclude Include="..\code\Object\GameObject\CleaningObjectTag.h" />
     <ClInclude Include="..\code\Object\GameObject\EndObjectTag.h" />

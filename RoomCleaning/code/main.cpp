@@ -3,7 +3,7 @@
 
 #include "../code/GameSystem/GameManager/GameManager.h"
 
-using namespace mea;
+using namespace rc;
 
 int WINAPI _stdcall WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int)
 {
