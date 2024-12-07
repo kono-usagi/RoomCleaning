@@ -85,5 +85,8 @@ namespace rc
 		static std::unique_ptr<GameObjectManager> mInstance;							    // ゲームオブジェクトマネージャの実体
 		std::vector<std::string> NowScene_ObjTag;											//現在のシーンのオブジェクトタグ
 		std::unordered_map<std::string, std::vector<std::shared_ptr<GameObject>>> mObjects;	//オブジェクトリスト
+		                 //strオブジェクトの各キー //
+		//   学生全体名簿　　　　れお　　　　山浦れお本体　<TECH.ｃ>
+
 	};
 }

@@ -202,6 +202,7 @@
     <ClInclude Include="..\code\Scene\SceneManager\SceneManager.h" />
     <ClInclude Include="..\code\Scene\Title\Title.h" />
     <ClInclude Include="..\code\Scene\Tutorial\Tutorial.h" />
+    <ClInclude Include="..\code\VitalParameter\VitalModel\VitalModel.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
