@@ -4,7 +4,7 @@
 
 
 #include"DxLib.h"
-#include"../../GameObject/GameObject.h"
+#include"../GameObject/GameObject.h"
 
 //#include"../Stage/Stage.h"
 
@@ -28,14 +28,15 @@ namespace rc
         /// </summary>
         void Update(float deltaTime)override;
         /// <summary>
-        /// 入力
+        /// スペースキー入力
         /// </summary>
-        void KeyInput()override;
+        void KeyInputSpace();
         /// <summary>
-        /// 動けるかどうか
+        /// マウス左クリック
         /// </summary>
-        /// <returns></returns>
-        //bool isMove(int keyType)override;
+        void MouseInputLeft();
+
+        void DragAndDrop();
 
     private:
 
