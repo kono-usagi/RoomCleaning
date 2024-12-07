@@ -54,9 +54,11 @@ namespace rc
     void GameObjectManager::Update(float deltaTime)
     {
         for (std::string& tag : mInstance->NowScene_ObjTag)
+            //                             SPG
         {
             // 該当タグにあるすべてのオブジェクトを更新
             for (auto& obj : mInstance->mObjects[tag])
+                //                      TECH.ｃ　れお
             {
                 //更新
                 obj->Update(deltaTime);

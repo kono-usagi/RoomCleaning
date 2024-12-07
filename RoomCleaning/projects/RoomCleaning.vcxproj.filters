@@ -184,6 +184,9 @@
     <ClInclude Include="..\code\Object\Collision\Collision.h">
       <Filter>Object\Collision</Filter>
     </ClInclude>
+    <ClInclude Include="..\code\VitalParameter\VitalModel\VitalModel.hpp">
+      <Filter>VitalParameter\VitalModel</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Scene">
@@ -278,6 +281,15 @@
     </Filter>
     <Filter Include="Object\Collision">
       <UniqueIdentifier>{ed9fcaba-db5d-434f-8869-5b144df06e2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VitalParameter">
+      <UniqueIdentifier>{4cb8ce6a-0fa7-49f1-ad5f-44c2dfd36b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VitalParameter\VitalModel">
+      <UniqueIdentifier>{b4a09121-8142-4c69-ac5a-a82f3adc1700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VitalParameter\VitalManager">
+      <UniqueIdentifier>{99cf8ce4-2811-4d75-bbae-af857d96486c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
