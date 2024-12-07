@@ -77,6 +77,9 @@
     <ClCompile Include="..\code\JsonMaster\Text\CleaningData\CleaningTextData.cpp">
       <Filter>JsonMaster\Text\CleaningTextData</Filter>
     </ClCompile>
+    <ClCompile Include="..\code\Object\Input\Input.cpp">
+      <Filter>Object\Input</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\code\GameSystem\GameSetting\GameSetting.h">
@@ -172,6 +175,9 @@
     <ClInclude Include="..\code\JsonMaster\Jsonkey.h">
       <Filter>JsonMaster</Filter>
     </ClInclude>
+    <ClInclude Include="..\code\Object\Input\Input.h">
+      <Filter>Object\Input</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Scene">
@@ -260,6 +266,9 @@
     </Filter>
     <Filter Include="JsonMaster\Text\CleaningTextData">
       <UniqueIdentifier>{e240c794-d32f-4c42-9f2b-be09480d49a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Input">
+      <UniqueIdentifier>{0bb9d322-90f9-44d6-9979-f039014df55c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

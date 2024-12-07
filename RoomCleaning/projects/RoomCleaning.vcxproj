@@ -158,6 +158,7 @@
     <ClCompile Include="..\code\main.cpp" />
     <ClCompile Include="..\code\Object\GameObjectManager\GameObjectManager.cpp" />
     <ClCompile Include="..\code\Object\GameObject\GameObject.cpp" />
+    <ClCompile Include="..\code\Object\Input\Input.cpp" />
     <ClCompile Include="..\code\Scene\Cleaning\Cleaning.cpp" />
     <ClCompile Include="..\code\Scene\End\End.cpp" />
     <ClCompile Include="..\code\Scene\Result\Result.cpp" />
@@ -191,6 +192,7 @@
     <ClInclude Include="..\code\Object\GameObject\GameObject.h" />
     <ClInclude Include="..\code\Object\GameObject\ResultObjectTag.h" />
     <ClInclude Include="..\code\Object\GameObject\TitleObjectTag.h" />
+    <ClInclude Include="..\code\Object\Input\Input.h" />
     <ClInclude Include="..\code\Scene\Cleaning\Cleaning.h" />
     <ClInclude Include="..\code\Scene\End\End.h" />
     <ClInclude Include="..\code\Scene\Result\Result.h" />
