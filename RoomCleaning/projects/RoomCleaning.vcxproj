@@ -167,6 +167,7 @@
     <ClCompile Include="..\code\Scene\SceneManager\SceneManager.cpp" />
     <ClCompile Include="..\code\Scene\Title\Title.cpp" />
     <ClCompile Include="..\code\Scene\Tutorial\Tutorial.cpp" />
+    <ClCompile Include="..\code\VitalParameter\VitalManager\VitalManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\code\Fps\Fps.h" />
@@ -202,6 +203,7 @@
     <ClInclude Include="..\code\Scene\SceneManager\SceneManager.h" />
     <ClInclude Include="..\code\Scene\Title\Title.h" />
     <ClInclude Include="..\code\Scene\Tutorial\Tutorial.h" />
+    <ClInclude Include="..\code\VitalParameter\VitalManager\VitalManager.h" />
     <ClInclude Include="..\code\VitalParameter\VitalModel\VitalModel.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
