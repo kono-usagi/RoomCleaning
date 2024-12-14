@@ -83,6 +83,9 @@
     <ClCompile Include="..\code\Object\Collision\Collision.cpp">
       <Filter>Object\Collision</Filter>
     </ClCompile>
+    <ClCompile Include="..\code\VitalParameter\VitalManager\VitalManager.cpp">
+      <Filter>VitalParameter\VitalManager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\code\GameSystem\GameSetting\GameSetting.h">
@@ -186,6 +189,9 @@
     </ClInclude>
     <ClInclude Include="..\code\VitalParameter\VitalModel\VitalModel.hpp">
       <Filter>VitalParameter\VitalModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\VitalParameter\VitalManager\VitalManager.h">
+      <Filter>VitalParameter\VitalManager</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
