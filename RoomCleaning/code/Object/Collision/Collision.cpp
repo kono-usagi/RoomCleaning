@@ -22,6 +22,6 @@ namespace rc
 
     void Collision::DrawCol()
     {
-        DrawBox();
+        //DrawBox();
     }
 }

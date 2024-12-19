@@ -8,7 +8,7 @@ namespace rc
     Title::Title()
         :SceneBase()
     {
-        //処理なし
+        Draw();
     }
 
     Title::~Title()
@@ -30,6 +30,7 @@ namespace rc
     void Title::Draw()
     {
         DrawFormatString(0, 0, GetColor(255, 255, 255), "title");
+        DrawFormatString(960, 540, GetColor(255, 255, 255), "スペースキーでスタート");
         //タイトルロゴ表示
     }
 }
