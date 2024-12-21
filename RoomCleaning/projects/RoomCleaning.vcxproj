@@ -156,6 +156,7 @@
     <ClCompile Include="..\code\JsonMaster\Text\CleaningData\CleaningTextData.cpp" />
     <ClCompile Include="..\code\JsonMaster\Text\MasterTextData\MasterTextData.cpp" />
     <ClCompile Include="..\code\main.cpp" />
+    <ClCompile Include="..\code\Object\Cleaning\BackGround\BackGround.cpp" />
     <ClCompile Include="..\code\Object\Collision\Collision.cpp" />
     <ClCompile Include="..\code\Object\GameObjectManager\GameObjectManager.cpp" />
     <ClCompile Include="..\code\Object\GameObject\GameObject.cpp" />
@@ -188,6 +189,7 @@
     <ClInclude Include="..\code\JsonMaster\Stage\StageOneData\StageOneData.h" />
     <ClInclude Include="..\code\JsonMaster\Text\CleaningData\CleaningTextData.h" />
     <ClInclude Include="..\code\JsonMaster\Text\MasterTextData\MasterTextData.h" />
+    <ClInclude Include="..\code\Object\Cleaning\BackGround\BackGround.h" />
     <ClInclude Include="..\code\Object\Collision\Collision.h" />
     <ClInclude Include="..\code\Object\GameObjectManager\GameObjectManager.h" />
     <ClInclude Include="..\code\Object\GameObject\CleaningObjectTag.h" />

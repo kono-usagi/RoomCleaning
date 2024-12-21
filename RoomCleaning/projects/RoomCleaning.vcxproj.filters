@@ -86,6 +86,9 @@
     <ClCompile Include="..\code\VitalParameter\VitalManager\VitalManager.cpp">
       <Filter>VitalParameter\VitalManager</Filter>
     </ClCompile>
+    <ClCompile Include="..\code\Object\Cleaning\BackGround\BackGround.cpp">
+      <Filter>Object\Cleaning\BackGround</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\code\GameSystem\GameSetting\GameSetting.h">
@@ -193,6 +196,9 @@
     <ClInclude Include="..\code\VitalParameter\VitalManager\VitalManager.h">
       <Filter>VitalParameter\VitalManager</Filter>
     </ClInclude>
+    <ClInclude Include="..\code\Object\Cleaning\BackGround\BackGround.h">
+      <Filter>Object\Cleaning\BackGround</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Scene">
@@ -296,6 +302,12 @@
     </Filter>
     <Filter Include="VitalParameter\VitalManager">
       <UniqueIdentifier>{99cf8ce4-2811-4d75-bbae-af857d96486c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Cleaning">
+      <UniqueIdentifier>{30819c61-5ae3-470a-8c5e-0b563085470b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Cleaning\BackGround">
+      <UniqueIdentifier>{2a5faabc-7a2d-4733-a8e7-3696f6f25748}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
