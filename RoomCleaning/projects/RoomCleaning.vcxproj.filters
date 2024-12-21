@@ -89,6 +89,9 @@
     <ClCompile Include="..\code\Object\Cleaning\BackGround\BackGround.cpp">
       <Filter>Object\Cleaning\BackGround</Filter>
     </ClCompile>
+    <ClCompile Include="..\code\Object\Cleaning\Inventory\InventoryManager\InventoryManager.cpp">
+      <Filter>Object\Cleaning\InventoryManager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\code\GameSystem\GameSetting\GameSetting.h">
@@ -199,6 +202,9 @@
     <ClInclude Include="..\code\Object\Cleaning\BackGround\BackGround.h">
       <Filter>Object\Cleaning\BackGround</Filter>
     </ClInclude>
+    <ClInclude Include="..\code\Object\Cleaning\Inventory\InventoryManager\InventoryManager.h">
+      <Filter>Object\Cleaning\InventoryManager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Scene">
@@ -308,6 +314,9 @@
     </Filter>
     <Filter Include="Object\Cleaning\BackGround">
       <UniqueIdentifier>{2a5faabc-7a2d-4733-a8e7-3696f6f25748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Cleaning\InventoryManager">
+      <UniqueIdentifier>{17a63285-afba-4f0a-b4cf-223cfc5d779e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
