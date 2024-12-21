@@ -12,6 +12,8 @@ namespace rc
         std::string PLAYER = "player";
         std::string STAGE = "stage";
         std::string UI = "ui";
+
+        std::string BACKGROUND = "background";
     } cleaningObjectTag;
 
 
@@ -20,6 +22,7 @@ namespace rc
     /// </summary>
     static std::vector<std::string>CleaningObjectTagAll
     {
+        cleaningObjectTag.BACKGROUND,
         cleaningObjectTag.STAGE,
         cleaningObjectTag.PLAYER,
         cleaningObjectTag.UI,

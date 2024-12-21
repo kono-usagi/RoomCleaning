@@ -9,6 +9,7 @@
 //#include"../../Object/Play/Stage/Stage.h"
 //#include"../../Object/Play/Ui/PlayUi.h"
 //#include"../../Object/Play/MapObject/MapObject.h"
+#include"../../Object/Cleaning/BackGround/BackGround.h"
 
 namespace rc
 {
