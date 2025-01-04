@@ -90,7 +90,10 @@
       <Filter>Object\Cleaning\BackGround</Filter>
     </ClCompile>
     <ClCompile Include="..\code\Object\Cleaning\Inventory\InventoryManager\InventoryManager.cpp">
-      <Filter>Object\Cleaning\InventoryManager</Filter>
+      <Filter>Object\Cleaning\Inventory\InventoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\Object\Cleaning\Inventory\InventoryView\InventoryView.cpp">
+      <Filter>Object\Cleaning\Inventory\InventoryView</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -203,7 +206,10 @@
       <Filter>Object\Cleaning\BackGround</Filter>
     </ClInclude>
     <ClInclude Include="..\code\Object\Cleaning\Inventory\InventoryManager\InventoryManager.h">
-      <Filter>Object\Cleaning\InventoryManager</Filter>
+      <Filter>Object\Cleaning\Inventory\InventoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\Object\Cleaning\Inventory\InventoryView\InventoryView.h">
+      <Filter>Object\Cleaning\Inventory\InventoryView</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -315,8 +321,14 @@
     <Filter Include="Object\Cleaning\BackGround">
       <UniqueIdentifier>{2a5faabc-7a2d-4733-a8e7-3696f6f25748}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Object\Cleaning\InventoryManager">
+    <Filter Include="Object\Cleaning\Inventory">
+      <UniqueIdentifier>{2b08a2c3-71ad-4e60-92e7-1a687b1b78f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Cleaning\Inventory\InventoryManager">
       <UniqueIdentifier>{17a63285-afba-4f0a-b4cf-223cfc5d779e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Cleaning\Inventory\InventoryView">
+      <UniqueIdentifier>{40ecc4d3-cf72-45d5-8884-db5dc9938ec5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

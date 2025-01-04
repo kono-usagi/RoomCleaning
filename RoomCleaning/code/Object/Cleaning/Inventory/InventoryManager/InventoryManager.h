@@ -5,6 +5,14 @@ namespace rc
     class InventoryManager
     {
     public:
+        //
+
+        //
+
+        //
+
+        //
+
 
     };
 }
