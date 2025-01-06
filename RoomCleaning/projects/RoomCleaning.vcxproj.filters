@@ -95,6 +95,18 @@
     <ClCompile Include="..\code\Object\Cleaning\Inventory\InventoryView\InventoryView.cpp">
       <Filter>Object\Cleaning\Inventory\InventoryView</Filter>
     </ClCompile>
+    <ClCompile Include="..\code\Object\Cleaning\Inventory\InventoryViewModel\InventoryViewModel.cpp">
+      <Filter>Object\Cleaning\Inventory\InventoryViewModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\Object\Cleaning\Inventory\Linens\Linens.cpp">
+      <Filter>Object\Cleaning\Inventory\Items\Linens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\Object\Cleaning\Inventory\Amenities\Amenities.cpp">
+      <Filter>Object\Cleaning\Inventory\Items\Amenities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\Object\Cleaning\Inventory\Tools\Tools.cpp">
+      <Filter>Object\Cleaning\Inventory\Items\Tools</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\code\GameSystem\GameSetting\GameSetting.h">
@@ -210,6 +222,18 @@
     </ClInclude>
     <ClInclude Include="..\code\Object\Cleaning\Inventory\InventoryView\InventoryView.h">
       <Filter>Object\Cleaning\Inventory\InventoryView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\Object\Cleaning\Inventory\InventoryViewModel\InventoryViewModel.h">
+      <Filter>Object\Cleaning\Inventory\InventoryViewModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\Object\Cleaning\Inventory\Linens\Linens.h">
+      <Filter>Object\Cleaning\Inventory\Items\Linens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\Object\Cleaning\Inventory\Amenities\Amenities.h">
+      <Filter>Object\Cleaning\Inventory\Items\Amenities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\Object\Cleaning\Inventory\Tools\Tools.h">
+      <Filter>Object\Cleaning\Inventory\Items\Tools</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -329,6 +353,21 @@
     </Filter>
     <Filter Include="Object\Cleaning\Inventory\InventoryView">
       <UniqueIdentifier>{40ecc4d3-cf72-45d5-8884-db5dc9938ec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Cleaning\Inventory\InventoryViewModel">
+      <UniqueIdentifier>{968b1841-af40-4134-8b36-95023581d08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Cleaning\Inventory\Items">
+      <UniqueIdentifier>{6b1d391c-a0a1-4c88-89da-c78cc628ee93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Cleaning\Inventory\Items\Tools">
+      <UniqueIdentifier>{50c5b7e6-817e-41ea-afab-298e3ef53163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Cleaning\Inventory\Items\Linens">
+      <UniqueIdentifier>{4f3afad4-b301-4aaf-ad9c-948cfd88d239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Cleaning\Inventory\Items\Amenities">
+      <UniqueIdentifier>{6e4363f0-0260-4474-8409-192a2a140da9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

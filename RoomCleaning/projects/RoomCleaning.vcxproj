@@ -110,13 +110,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\student\Desktop\RoomCleaning\IncludeFile\Dxlib.h</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\IncludeFile\Dxlib.h</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\student\Desktop\RoomCleaning\IncludeFile\Dxlib.h</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\IncludeFile\Dxlib.h</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -157,8 +157,12 @@
     <ClCompile Include="..\code\JsonMaster\Text\MasterTextData\MasterTextData.cpp" />
     <ClCompile Include="..\code\main.cpp" />
     <ClCompile Include="..\code\Object\Cleaning\BackGround\BackGround.cpp" />
+    <ClCompile Include="..\code\Object\Cleaning\Inventory\Amenities\Amenities.cpp" />
     <ClCompile Include="..\code\Object\Cleaning\Inventory\InventoryManager\InventoryManager.cpp" />
+    <ClCompile Include="..\code\Object\Cleaning\Inventory\InventoryViewModel\InventoryViewModel.cpp" />
     <ClCompile Include="..\code\Object\Cleaning\Inventory\InventoryView\InventoryView.cpp" />
+    <ClCompile Include="..\code\Object\Cleaning\Inventory\Linens\Linens.cpp" />
+    <ClCompile Include="..\code\Object\Cleaning\Inventory\Tools\Tools.cpp" />
     <ClCompile Include="..\code\Object\Collision\Collision.cpp" />
     <ClCompile Include="..\code\Object\GameObjectManager\GameObjectManager.cpp" />
     <ClCompile Include="..\code\Object\GameObject\GameObject.cpp" />
@@ -192,8 +196,12 @@
     <ClInclude Include="..\code\JsonMaster\Text\CleaningData\CleaningTextData.h" />
     <ClInclude Include="..\code\JsonMaster\Text\MasterTextData\MasterTextData.h" />
     <ClInclude Include="..\code\Object\Cleaning\BackGround\BackGround.h" />
+    <ClInclude Include="..\code\Object\Cleaning\Inventory\Amenities\Amenities.h" />
     <ClInclude Include="..\code\Object\Cleaning\Inventory\InventoryManager\InventoryManager.h" />
+    <ClInclude Include="..\code\Object\Cleaning\Inventory\InventoryViewModel\InventoryViewModel.h" />
     <ClInclude Include="..\code\Object\Cleaning\Inventory\InventoryView\InventoryView.h" />
+    <ClInclude Include="..\code\Object\Cleaning\Inventory\Linens\Linens.h" />
+    <ClInclude Include="..\code\Object\Cleaning\Inventory\Tools\Tools.h" />
     <ClInclude Include="..\code\Object\Collision\Collision.h" />
     <ClInclude Include="..\code\Object\GameObjectManager\GameObjectManager.h" />
     <ClInclude Include="..\code\Object\GameObject\CleaningObjectTag.h" />
