@@ -15,9 +15,9 @@ namespace rc
 	private:
 		void ApplyViewMake(int ViewModel[]);
 
-		int mItemID;
-		int mItemDisplayName;
-		int mItemImageHandle;
+		//int mItemID;
+		//int mItemDisplayName;
+		//int mItemImageHandle;
 		
 	};
 }
