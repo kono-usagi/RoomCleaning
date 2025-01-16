@@ -14,11 +14,12 @@ namespace rc
 
 		virtual void MakeItem() = 0;
 
+
 		struct InventoryItem
 		{
 			int ItemID;
 			int ItemImageHandle;
-			char ItemDisplayName[20];
+			char ItemDisplayName[10];
 		};
 
 		//選択されたページに更新
