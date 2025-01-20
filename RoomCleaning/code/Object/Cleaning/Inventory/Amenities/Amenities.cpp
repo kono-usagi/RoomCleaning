@@ -16,7 +16,7 @@ namespace rc
 
 		InventoryID = 1;
 		strcpy_s(AmenitiesArray[InventoryID][0].ItemDisplayName, 10, "ボディタオル");
-		AmenitiesArray[InventoryID][1].ItemImageHandle = LoadGraph("../asset/Image/senzai_syokki.png");
+		AmenitiesArray[InventoryID][1].ItemImageHandle = LoadGraph("../asset/Image/nuno.png");//画像用意出来次第差し替えてください
 		AmenitiesArray[InventoryID][2].ItemID = 0;
 
 		InventoryID = 2;
@@ -26,7 +26,7 @@ namespace rc
 
 		InventoryID = 3;
 		strcpy_s(AmenitiesArray[InventoryID][0].ItemDisplayName, 10, "トイレットペーパー");
-		AmenitiesArray[InventoryID][1].ItemImageHandle = LoadGraph("../asset/Image/nuno.png");
+		AmenitiesArray[InventoryID][1].ItemImageHandle = LoadGraph("../asset/Image/toilet_paper.png");
 		AmenitiesArray[InventoryID][2].ItemID = 0;
 
 		InventoryID = 4;
