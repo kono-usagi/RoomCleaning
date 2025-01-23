@@ -3,7 +3,6 @@
 #include<string.h>
 
 
-
 namespace rc
 {
 	class InventoryViewModel
@@ -12,19 +11,17 @@ namespace rc
 		static const int ARRAY_SIZE = 6;
 		//static const int ARRAY_SIZE = 6;
 
-		virtual void MakeItem() = 0;
 
-
-		struct InventoryItem
+		struct InventoryItem//インベントリ構造体
 		{
 			int ItemID;
 			int ItemImageHandle;
 			char ItemDisplayName[10];
 		};
 
-		//選択されたページに更新
-
+		virtual void MakeItem(InventoryItem* inventoryItem[]) = 0;
 
 	private:
+
 	};
 }

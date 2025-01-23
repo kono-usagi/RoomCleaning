@@ -3,9 +3,9 @@
 
 namespace rc
 {
-	void Amenities::MakeItem()
+	void Amenities::MakeItem(InventoryItem* AmenitiesArray[])
 	{
-		struct InventoryItem AmenitiesArray[ARRAY_SIZE][ARRAY_SIZE];
+		//struct InventoryItem AmenitiesArray[ARRAY_SIZE][ARRAY_SIZE];
 
 		int InventoryID;
 

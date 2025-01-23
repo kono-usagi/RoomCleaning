@@ -3,21 +3,42 @@
 
 namespace rc
 {
-	void InventoryView:: ApplyViewMake(int ViewModel[])
+	InventoryView::InventoryView()
 	{
-		//表示するページ
+		//インベントリ全体枠表示
+
+		//現在のタブを掃除道具に設定
 
 
+		mItemImageX = 100;
+		mItemNameX = 100;
+	}
+
+	void InventoryView::MakeItem(InventoryItem* InventoryArray[])
+	{
+		
 
 	}
 
-	void InventoryView::DrawInventory()
+	void InventoryView:: ApplyViewMake(InventoryItem* InventoryArray)
 	{
-		//繰り返し
+		//InventoryArray = inventoryItem;
 
-		//画像描画関数
-		//DrawGraph()
-		
-		//名前描画
+		//繰り返し
+		for (int i = 0; i < ARRAY_SIZE; i++)
+		{
+			//画像描画
+			//DrawGraph()
+			DrawExtendGraph(mItemImageY, mItemImageY, 1921, 1081, InventoryArray[i][1].ItemImageHandle, TRUE);
+
+			//名前描画
+			DrawString(mItemNameY, mItemNameY, InventoryArray[i][2].ItemDisplayName, GetColor(255, 255, 255));
+
+			mItemImageX += mItemXDistance;
+			mItemNameX += mItemXDistance;
+		}
+
+		//前のやつ削除?
+
 	}
 }

@@ -3,9 +3,9 @@
 
 namespace rc
 {
-	void Linens::MakeItem()
+	void Linens::MakeItem(InventoryItem* LinensArray[])
 	{
-		struct InventoryItem LinensArray[ARRAY_SIZE][ARRAY_SIZE];
+		//struct InventoryItem LinensArray[ARRAY_SIZE][ARRAY_SIZE];
 
 		int InventoryID;
 

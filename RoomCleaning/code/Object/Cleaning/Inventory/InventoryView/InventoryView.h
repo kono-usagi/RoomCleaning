@@ -1,23 +1,34 @@
 #pragma once
 
+#include"../InventoryViewModel/InventoryViewModel.h"
+
+#include"DxLib.h"
+
 namespace rc
 {
-	class InventoryView
+	class InventoryView :public InventoryViewModel
 	{
 	public:
-		/*int GetItemID() { return ItemID };
-		int GetItemDisplayName() { return ItemDisplayName };
-		int GetItemImageHandle() { return ItemImageHandle };*/
 
-		//描画
-		void DrawInventory();
+		InventoryView();//コンストラクタ
+		void MakeItem(InventoryItem* InventoryArray[]) override;
+
+
+		void ApplyViewMake(InventoryItem* InventoryArray);
 
 	private:
-		void ApplyViewMake(int ViewModel[]);
+		static const int mItemXDistance = 50;//アイテムの横の距離
 
-		//int mItemID;
-		//int mItemDisplayName;
-		//int mItemImageHandle;
+		static const int mItemImageY = 1000;//アイテム画像Y座標
+		static const int mItemNameY = 1000;//アイテム名Y座標
+
+
+		int mItemImageX;//アイテム画像X座標
+		int mItemNameX;//アイテム名X座標
+
+
+
+
 		
 	};
 }

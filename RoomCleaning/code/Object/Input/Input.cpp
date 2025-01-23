@@ -3,21 +3,6 @@
 
 namespace rc
 {
-    Input::Input()
-        :GameObject(cleaningObjectTag.PLAYER)//コンストラクタ
-    {
-        
-    }
-
-    Input::~Input()//デストラクタ
-    {
-
-    }
-
-    void Input::Update(float deltaTime)//更新
-    {
-
-    }
     void Input::KeyInputSpace()
     {
         //スペースキー入力

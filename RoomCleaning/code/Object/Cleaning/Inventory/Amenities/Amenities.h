@@ -11,7 +11,7 @@ namespace rc
 	class Amenities :public InventoryViewModel
 	{
 	public:
-		void MakeItem() override;
+		void MakeItem(InventoryItem* AmenitiesArray[]) override;
 	};
 
 }
