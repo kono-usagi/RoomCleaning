@@ -11,6 +11,6 @@ namespace rc
 	class Linens :public InventoryViewModel
 	{
 	public:
-		void MakeItem() override;
+		void MakeItem(InventoryItem* LinensArray[]) override;
 	};
 }

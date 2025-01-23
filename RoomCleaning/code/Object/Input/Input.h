@@ -4,29 +4,15 @@
 
 
 #include"DxLib.h"
-#include"../GameObject/GameObject.h"
 
 //#include"../Stage/Stage.h"
 
 
 namespace rc
 {
-    class Input :public GameObject
+    class Input 
     {
     public:
-        /// <summary>
-        /// コンストラクタ
-        /// </summary>
-        Input();
-        /// <summary>
-        /// デストラクタ
-        /// </summary>
-        ~Input();
-
-        /// <summary>
-        /// 更新
-        /// </summary>
-        void Update(float deltaTime)override;
         /// <summary>
         /// スペースキー入力
         /// </summary>

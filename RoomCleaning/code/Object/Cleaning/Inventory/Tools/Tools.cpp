@@ -3,9 +3,9 @@
 
 namespace rc
 {
-	void Tools::MakeItem() 
+	void Tools::MakeItem(InventoryItem* ToolsArray[])
 	{
-		struct InventoryItem ToolsArray[ARRAY_SIZE][ARRAY_SIZE];
+		//struct InventoryItem ToolsArray[ARRAY_SIZE][ARRAY_SIZE];
 
 		int InventoryID;
 
@@ -39,4 +39,5 @@ namespace rc
 		ToolsArray[InventoryID][1].ItemImageHandle = LoadGraph("../asset/Image/gomibako_full.png");
 		ToolsArray[InventoryID][2].ItemID = 5;
 	}
+
 }
