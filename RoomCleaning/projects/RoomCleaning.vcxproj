@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\code\Button\Button.cpp" />
     <ClCompile Include="..\code\Fps\Fps.cpp" />
     <ClCompile Include="..\code\GameSystem\GameManager\GameManager.cpp" />
     <ClCompile Include="..\code\GameSystem\GameSetting\GameSetting.cpp" />
@@ -177,6 +178,8 @@
     <ClCompile Include="..\code\VitalParameter\VitalManager\VitalManager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\code\Button\Button.h" />
+    <ClInclude Include="..\code\Button\OnClickListener.h" />
     <ClInclude Include="..\code\Fps\Fps.h" />
     <ClInclude Include="..\code\GameSystem\GameManager\GameManager.h" />
     <ClInclude Include="..\code\GameSystem\GameSetting\GameSetting.h" />
