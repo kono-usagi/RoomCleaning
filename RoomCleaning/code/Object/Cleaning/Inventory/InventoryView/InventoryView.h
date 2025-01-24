@@ -14,7 +14,7 @@ namespace rc
 		void MakeItem(InventoryItem* InventoryArray[]) override;
 
 
-		void ApplyViewMake(InventoryItem* InventoryArray);
+		void ApplyViewMake(InventoryItem* InventoryArray[]);
 
 	private:
 		static const int mItemXDistance = 50;//ƒAƒCƒeƒ€‚Ì‰¡‚Ì‹——£

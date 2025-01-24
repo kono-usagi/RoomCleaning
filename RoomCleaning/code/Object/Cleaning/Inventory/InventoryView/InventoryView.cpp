@@ -20,7 +20,7 @@ namespace rc
 
 	}
 
-	void InventoryView:: ApplyViewMake(InventoryItem* InventoryArray)
+	void InventoryView:: ApplyViewMake(InventoryItem* InventoryArray[])
 	{
 		//InventoryArray = inventoryItem;
 
@@ -29,10 +29,10 @@ namespace rc
 		{
 			//‰æ‘œ•`‰æ
 			//DrawGraph()
-			DrawExtendGraph(mItemImageY, mItemImageY, 1921, 1081, InventoryArray[i][1].ItemImageHandle, TRUE);
+			DrawExtendGraph(mItemImageX, mItemImageY, 1921, 1081, InventoryArray[i][1].ItemImageHandle, TRUE);
 
 			//–¼‘O•`‰æ
-			DrawString(mItemNameY, mItemNameY, InventoryArray[i][2].ItemDisplayName, GetColor(255, 255, 255));
+			DrawString(mItemNameX, mItemNameY, InventoryArray[i][2].ItemDisplayName, GetColor(255, 255, 255));
 
 			mItemImageX += mItemXDistance;
 			mItemNameX += mItemXDistance;
