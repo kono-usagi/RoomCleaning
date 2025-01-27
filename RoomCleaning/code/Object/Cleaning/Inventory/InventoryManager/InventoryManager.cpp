@@ -2,11 +2,13 @@
 
 namespace rc
 {
-	InventoryManager::InventoryManager(): m_count(0)
+	InventoryManager::InventoryManager()
 	{
+		mNowTab = TAB_TOOLS;
+
 		InventoryView;
 		m_rect_bt = new Button;
-		m_rect_bt->SetOnClickListener(new CountUpListner(*this));
+		m_rect_bt->SetOnClickListener(new SelectTabLitsener(*this));
 		m_rect_bt->SetPos(50, 50);
 	}
 
@@ -21,24 +23,11 @@ namespace rc
 	void InventoryManager::Update()
 	{
 		//inventoryView.ApplyViewMake();
-
-		if (m_rect_bt) {
-			delete m_rect_bt;
-			m_rect_bt = nullptr;
-		}
-	}
-
-	void InventoryManager::ChangeTab(int tab)
-	{
-
-		mNowTab = tab;
+		MouseInput();
 	}
 
 	void InventoryManager::MouseInput()
 	{
-		int mx = 0;
-		int my = 0;
-
 		GetMousePoint(&mx, &my);
 
 		// マウスクリックの入力フレームを数える
@@ -57,7 +46,6 @@ namespace rc
 
 	void InventoryManager::Draw()
 	{
-
 		m_rect_bt->Draw();
 	}
 }
