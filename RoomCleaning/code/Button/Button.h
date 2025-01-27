@@ -9,13 +9,11 @@ class Button
 protected:
     int m_pos_x, m_pos_y;  // 位置
     int m_width, m_height; // サイズ
-    char m_text[255];      // 文字
 
+    bool is_on_mouse;
     bool m_is_click_mouse;
 
-    // 色
-    unsigned int m_text_box_color;
-    unsigned int m_text_color;
+    unsigned int m_text_box_color;//色
 
     // リスナー
     OnClickListener* m_listner;
@@ -50,8 +48,4 @@ public:
         m_pos_y = y;
     }
 
-    inline virtual
-        void SetText(char* text) final {
-        strcpy(m_text, text);
-    }
 };

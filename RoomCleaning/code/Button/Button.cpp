@@ -6,10 +6,7 @@
 Button::Button() :
     m_pos_x(0), m_pos_y(0),
     m_width(200), m_height(50),
-    m_text("Button"),
     m_listner(nullptr),
-    m_text_box_color(0xFFFFFF),
-    m_text_color(0x000000),
     m_is_click_mouse(false) {
 }
 
@@ -34,18 +31,14 @@ void Button::OnClick() {
 }
 
 void Button::Update(int click, int mx, int my) {
-    m_text_box_color = 0xaa0000;
 
     // ƒ}ƒEƒX‚ªæ‚Á‚Ä‚¢‚é‚©”»’è
-    bool is_on_mouse = Collision(mx, my);
+    is_on_mouse = Collision(mx, my);
 
     // æ‚Á‚Ä‚¢‚½‚ç
     if (is_on_mouse == true) {
-        m_text_box_color = 0x00aa00;
-
         // ƒNƒŠƒbƒNˆ—
         if (click == 1) m_is_click_mouse = true;
-        if (click >= 1) m_text_box_color = 0x0000aa;
 
         if (click == 0 && m_is_click_mouse == true) {
             m_is_click_mouse = false;
@@ -60,8 +53,6 @@ void Button::Update(int click, int mx, int my) {
 }
 
 void Button::Draw() {
-    //˜g•`‰æ
+    m_text_box_color = GetColor(0, 0, 255);
     DrawBox(m_pos_x, m_pos_y, m_pos_x + m_width, m_pos_y + m_height - 1, m_text_box_color, true);
-    //•¶Žš•`‰æ
-    DrawString(m_pos_x + (m_width / 2), m_pos_y + (m_height / 2), m_text, m_text_color);
 }
