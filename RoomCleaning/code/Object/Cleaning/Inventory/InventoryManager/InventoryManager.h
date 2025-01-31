@@ -1,5 +1,6 @@
 #pragma once
 
+#include"../../RoomCleaning/code/Object/GameObject/GameObject.h"
 //#include"../InventoryViewModel/InventoryViewModel.h"
 #include"../../RoomCleaning/code/Button/OnClickListener.h"
 #include"../../RoomCleaning/code/Button/Button.h"
@@ -14,16 +15,15 @@ class Button;
 
 namespace rc
 {
-    class InventoryManager
+    class InventoryManager:public GameObject
     {
     public:
         InventoryManager();//コンストラクタ
         ~InventoryManager();
 
-        void Update();
-
+        void Update(float deltaTime)override;
         void MouseInput();
-        void Draw();
+        void Draw()override;
 
 
         int mx = 0;//マウスX値
@@ -32,14 +32,19 @@ namespace rc
         //表示するページ　**デバッグ用
         //DrawFormatString(0, 0, GetColor(255, 255, 255), mNowTab);
 
-    private:
         static int mNowTab;//現在のタブ
+
+    private:
+       
 
         static const int TAB_TOOLS = 0;//掃除道具
         static const int TAB_LINENS = 1;//リネン
         static const int TAB_AMENITIES = 2;//アメニティ
 
         InventoryView inventoryView;
+        Tools tools;
+        Linens linens;
+        Amenities amenities;
 
         //ボタン
         Button* m_rect_bt;

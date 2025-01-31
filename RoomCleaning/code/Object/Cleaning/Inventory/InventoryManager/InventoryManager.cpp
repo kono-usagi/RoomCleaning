@@ -2,11 +2,12 @@
 
 namespace rc
 {
+	int InventoryManager::mNowTab;
 	InventoryManager::InventoryManager()
+		:GameObject(cleaningObjectTag.UI)
 	{
 		mNowTab = TAB_TOOLS;
 
-		InventoryView;
 		m_rect_bt = new Button;
 		m_rect_bt->SetOnClickListener(new SelectTabLitsener(*this));
 		m_rect_bt->SetPos(50, 50);
@@ -20,10 +21,11 @@ namespace rc
 		}
 	}
 
-	void InventoryManager::Update()
+	void InventoryManager::Update(float deltaTime)
 	{
 		//inventoryView.ApplyViewMake();
 		MouseInput();
+		Draw();
 	}
 
 	void InventoryManager::MouseInput()
@@ -39,6 +41,19 @@ namespace rc
 		}
 		else {
 			count = 0;
+		}
+
+		if (mNowTab == TAB_TOOLS)
+		{
+			inventoryView.ApplyViewMake(tools.);
+		}
+		if (mNowTab == TAB_LINENS)
+		{
+
+		}
+		if (mNowTab == TAB_AMENITIES)
+		{
+
 		}
 
 		m_rect_bt->Update(count, mx, my);

@@ -7,8 +7,13 @@ namespace rc
 	{
 		//インベントリ全体枠表示
 
-		//現在のタブを掃除道具に設定
+		mTabToolsImageHandle = LoadGraph("../asset/Image/TAB_TOOLS.PNG");
+		mTabLinensImageHandle = LoadGraph("../asset/Image/TAB_LINENS.PNG");
+		mTabAmenitiesImageHandle = LoadGraph("../asset/Image/TAB_AMENITIES.PNG");
 
+		DrawExtendGraph(100, 800, 100, 100, mTabToolsImageHandle, TRUE);
+		DrawExtendGraph(200, 800, 100, 100, mTabLinensImageHandle, TRUE);
+		DrawExtendGraph(300, 800, 100, 100, mTabLinensImageHandle, TRUE);
 
 		mItemImageX = 100;
 		mItemNameX = 100;
@@ -16,7 +21,7 @@ namespace rc
 
 	void InventoryView::MakeItem(InventoryItem* InventoryArray[])
 	{
-		
+		//mNowTab;
 
 	}
 

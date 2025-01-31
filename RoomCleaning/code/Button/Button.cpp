@@ -7,7 +7,9 @@ Button::Button() :
     m_pos_x(0), m_pos_y(0),
     m_width(200), m_height(50),
     m_listner(nullptr),
-    m_is_click_mouse(false) {
+    m_is_on_mouse(false),
+    m_is_click_mouse(false) ,
+    m_text_box_color(NULL){
 }
 
 Button::~Button() {
@@ -33,10 +35,10 @@ void Button::OnClick() {
 void Button::Update(int click, int mx, int my) {
 
     // マウスが乗っているか判定
-    is_on_mouse = Collision(mx, my);
+    m_is_on_mouse = Collision(mx, my);
 
     // 乗っていたら
-    if (is_on_mouse == true) {
+    if (m_is_on_mouse == true) {
         // クリック処理
         if (click == 1) m_is_click_mouse = true;
 
@@ -46,7 +48,7 @@ void Button::Update(int click, int mx, int my) {
         }
     }
     //乗っていなかったら
-    else if (is_on_mouse == false) {
+    else if (m_is_on_mouse == false) {
         //クリック判定をなくす
         m_is_click_mouse = false;
     }
