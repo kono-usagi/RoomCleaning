@@ -11,10 +11,10 @@ namespace rc
 	public:
 
 		InventoryView();//コンストラクタ
-		void MakeItem(InventoryItem* InventoryArray[]) override;
+		void MakeItem(InventoryItem* NowInventory[]) override;
 
 
-		void ApplyViewMake(InventoryItem* InventoryArray[]);
+		void ApplyViewMake(InventoryItem NowInventory);
 
 	private:
 		static const int mItemXDistance = 50;//アイテムの横の距離
