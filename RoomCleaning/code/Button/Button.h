@@ -10,10 +10,10 @@ protected:
     int m_pos_x, m_pos_y;  // 位置
     int m_width, m_height; // サイズ
 
-    bool is_on_mouse;
-    bool m_is_click_mouse;
+    bool m_is_on_mouse = false;
+    bool m_is_click_mouse=false;
 
-    unsigned int m_text_box_color;//色
+    unsigned int m_text_box_color=NULL;//色
 
     // リスナー
     OnClickListener* m_listner;

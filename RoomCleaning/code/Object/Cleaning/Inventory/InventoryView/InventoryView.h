@@ -26,7 +26,9 @@ namespace rc
 		int mItemImageX;//アイテム画像X座標
 		int mItemNameX;//アイテム名X座標
 
-
+		int mTabToolsImageHandle;
+		int mTabLinensImageHandle;
+		int mTabAmenitiesImageHandle;
 
 
 		
