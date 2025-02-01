@@ -9,11 +9,14 @@ namespace rc
 
 		mTabToolsImageHandle = LoadGraph("../asset/Image/TAB_TOOLS.PNG");
 		mTabLinensImageHandle = LoadGraph("../asset/Image/TAB_LINENS.PNG");
-		mTabAmenitiesImageHandle = LoadGraph("../asset/Image/TAB_AMENITIES.PNG");
+		mTabAmenitiesImageHandle = LoadGraph("../asset/Image/TAB_AMENITIES .PNG");
+		//mNowTabBoxImageHandle = LoadGraph("../asset/Image/TAB_AMENITIES.png");
+		mBoxToolsImageHandle = LoadGraph("../asset/Image/TOOLS_BOX.png");
+		mBoxLinensImageHandle = LoadGraph("../asset/Image/LINENS_BOX.png");
+		mBoxAmenitiesImageHandle = LoadGraph("../asset/Image/AMENITIES_BOX.png");
 
-		DrawExtendGraph(100, 800, 100, 100, mTabToolsImageHandle, TRUE);
-		DrawExtendGraph(200, 800, 100, 100, mTabLinensImageHandle, TRUE);
-		DrawExtendGraph(300, 800, 100, 100, mTabLinensImageHandle, TRUE);
+		
+
 
 		mItemImageX = 100;
 		mItemNameX = 100;
@@ -50,5 +53,16 @@ namespace rc
 
 		//ëOÇÃÇ‚Ç¬çÌèú?
 
+	}
+
+	
+
+	void InventoryView::Draw()
+	{
+		DrawGraph(0, 780, mTabToolsImageHandle, TRUE);
+		DrawGraph(100, 780, mTabLinensImageHandle, TRUE);
+		DrawGraph(200, 780, mTabAmenitiesImageHandle, TRUE);
+
+		DrawGraph(mTabBoxX, mTabBoxY, mBoxToolsImageHandle, TRUE);
 	}
 }

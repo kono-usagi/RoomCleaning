@@ -4,13 +4,14 @@ namespace rc
 {
 	int InventoryManager::mNowTab;
 	InventoryManager::InventoryManager()
-		:GameObject(cleaningObjectTag.UI)
+		:GameObject(cleaningObjectTag.INVENTORYMANAGER)
 	{
 		mNowTab = TAB_TOOLS;
 
 		m_rect_bt = new Button;
 		m_rect_bt->SetOnClickListener(new SelectTabLitsener(*this));
 		m_rect_bt->SetPos(50, 50);
+
 	}
 
 	InventoryManager::~InventoryManager()
@@ -25,7 +26,6 @@ namespace rc
 	{
 		//inventoryView.ApplyViewMake();
 		MouseInput();
-		Draw();
 	}
 
 	void InventoryManager::MouseInput()
@@ -61,6 +61,7 @@ namespace rc
 
 	void InventoryManager::Draw()
 	{
+		inventoryView.Draw();
 		m_rect_bt->Draw();
 	}
 }
