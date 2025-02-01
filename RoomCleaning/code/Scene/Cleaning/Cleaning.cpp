@@ -16,6 +16,7 @@ namespace rc
         //GameObjectManager::Entry(new PlayUi);
 
         GameObjectManager::Entry(new BackGround);
+        GameObjectManager::Entry(new InventoryManager);
     }
     Cleaning::~Cleaning()
     {

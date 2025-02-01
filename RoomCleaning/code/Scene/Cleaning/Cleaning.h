@@ -10,6 +10,7 @@
 //#include"../../Object/Play/Ui/PlayUi.h"
 //#include"../../Object/Play/MapObject/MapObject.h"
 #include"../../Object/Cleaning/BackGround/BackGround.h"
+#include"../../Object/Cleaning/Inventory/InventoryManager/InventoryManager.h"
 
 namespace rc
 {

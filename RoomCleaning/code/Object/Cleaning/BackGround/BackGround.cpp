@@ -17,13 +17,13 @@ namespace rc
 
     void BackGround::Update(float deltaTime)
     {
-        Draw();
+       // Draw();
     }
 
     void BackGround::Draw()
     {
         //îwåiï\é¶
-        DrawExtendGraph(0, 0,1921,1081, mBackGroundImageHandle,TRUE);
+        DrawExtendGraph(300, 0, 1614, 880,  mBackGroundImageHandle,TRUE);
     }
 
 
