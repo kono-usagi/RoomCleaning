@@ -45,7 +45,7 @@ namespace rc
 
 		if (mNowTab == TAB_TOOLS)
 		{
-			inventoryView.ApplyViewMake(tools.);
+			//inventoryView.ApplyViewMake();
 		}
 		if (mNowTab == TAB_LINENS)
 		{

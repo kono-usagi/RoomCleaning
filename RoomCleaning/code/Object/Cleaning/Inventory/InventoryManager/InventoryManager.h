@@ -35,8 +35,6 @@ namespace rc
         static int mNowTab;//現在のタブ
 
     private:
-       
-
         static const int TAB_TOOLS = 0;//掃除道具
         static const int TAB_LINENS = 1;//リネン
         static const int TAB_AMENITIES = 2;//アメニティ
